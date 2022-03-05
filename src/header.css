@@ -1,8 +1,7 @@
-.topLeftAlign {
+.topRightAlign {
     position: absolute;
-    left: 10%;
+    right: 10%;
     width: 80%;
-    top: 0;
-    border: 2px solid #106ebe;
+    border-bottom: 2px solid #106ebe;
     z-index: 10;
 }

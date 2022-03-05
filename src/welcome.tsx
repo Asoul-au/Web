@@ -9,7 +9,7 @@ import {
 } from "@fluentui/react";
 import { DefaultButton, PrimaryButton } from "@fluentui/react/lib/Button";
 import logo from "./Diana.png";
-import { CustomTopBar } from "./header";
+import { CustomTopBar, CustomHeader } from "./header";
 import "./welcome.css";
 
 const boldStyle: Partial<ITextStyles> = {
@@ -30,8 +30,9 @@ const mainStackStyles: Partial<IStackStyles> = {
 export function Welcome() {
     return (
         <span>
-            <CustomTopBar />
             {/*<span className="topAlign">*/}
+                <CustomHeader />
+                <CustomTopBar />
             <Stack
                 className="topAlign"
                 horizontalAlign="center"

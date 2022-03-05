@@ -1,0 +1,80 @@
+/*.searchButton{*/
+/*    position: relative;*/
+/*    left: 15%;*/
+/*    top: 10%;*/
+/*    width:70%;*/
+/*    height: 20%*/
+/*}*/
+
+.searchArea {
+    position: absolute;
+    background-color: #c7e0f4;
+    top: 10%;
+    left: 10%;
+    height: 75%;
+    width: 30%;
+    /*border: 2px solid #106ebe;*/
+}
+
+.searchBox {
+    /*position: absolute;*/
+    /*left:10%;*/
+    /*top:5%;*/
+    margin-top: -2%;
+    width: 100%;
+    /*border: 2px solid #106ebe;*/
+}
+
+.searchCheckBox {
+    /*position: absolute;*/
+    /*top:5%;*/
+    /*left:-40%*/
+}
+
+.resultArea {
+    position: absolute;
+    background-color: #faf9f8;
+    top: 10%;
+    /*bottom: 15%;*/
+    /*margin-bottom: 10%;*/
+    height: auto;
+    min-height: 75%;
+    right: 10%;
+    width: 45%;
+}
+
+.resultWait {
+    position: absolute;
+    right: 12%;
+    width: 40%;
+    top: 40%;
+    opacity: 0;
+}
+
+.commentCard {
+    background-color: white;
+    /*position: absolute;*/
+    width: 90%;
+    height: auto;
+    border: 1px solid #106ebe;
+}
+
+.persona {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.commentText {
+    margin-top: 0;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-right:30px;
+}
+
+.commentExplainText {
+    position: absolute;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    right: 10%;
+}

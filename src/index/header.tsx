@@ -4,7 +4,6 @@ import {
     ICommandBarItemProps,
 } from "@fluentui/react/lib/CommandBar";
 import {
-    CommandBarButton,
     IButtonProps,
     IButtonStyles,
 } from "@fluentui/react/lib/Button";
@@ -71,10 +70,16 @@ const overflowProps: IButtonProps = {
     },
 };
 
+export function CustomHeader() {
+    return (
+        <div><h1>Asoul-Comment</h1></div>
+    );
+}
+
 export function CustomTopBar() {
     return (
         <CommandBar
-            className="topLeftAlign"
+            className="topRightAlign"
             overflowButtonProps={overflowProps}
             // buttonAs={CustomButton}
             items={_items}

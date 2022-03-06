@@ -1,6 +1,6 @@
 import * as React from "react";
-import "./header.css";
-import { CustomTopBar } from "./header";
+import "../index/header.css";
+import { CustomTopBar } from "../index/header";
 import { Checkbox, Text } from "@fluentui/react";
 import { TextField } from "@fluentui/react/lib/TextField";
 import { IStackTokens, Stack } from "@fluentui/react/lib/Stack";

@@ -8,7 +8,7 @@ import {
     Text,
 } from "@fluentui/react";
 import { DefaultButton, PrimaryButton } from "@fluentui/react/lib/Button";
-import logo from "./Diana.png";
+import logo from "../assets/Diana.png";
 import { CustomTopBar, CustomHeader } from "./header";
 import "./welcome.css";
 
@@ -31,7 +31,6 @@ export function Welcome() {
     return (
         <span>
             {/*<span className="topAlign">*/}
-                <CustomHeader />
                 <CustomTopBar />
             <Stack
                 className="topAlign"

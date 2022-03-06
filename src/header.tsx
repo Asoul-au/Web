@@ -77,7 +77,6 @@ export function CustomHeader() {
 }
 
 export function CustomTopBar() {
-    getCommandBarButtonStyles();
     return (
         <CommandBar
             className="topRightAlign"

@@ -2,7 +2,7 @@
   "name": "web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://odeinjul.github.io/Web/",
+  "homepage": "https://asoul-au.live/",
   "dependencies": {
     "@fluentui/example-data": "^8.3.0",
     "@fluentui/react": "^8.56.1",

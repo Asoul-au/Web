@@ -21,7 +21,7 @@ ReactDOM.render(
         <Routes>
             <Route path="/welcome" element={<Welcome />} />
             <Route path="/search" element={<Search />} />
-            <Route path="/" element={<Search />} />
+            <Route path="/" element={<Welcome />} />
         </Routes>
     </Router>,
     document.getElementById("root")

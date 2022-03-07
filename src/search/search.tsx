@@ -16,7 +16,7 @@ import * as moment from "moment";
 
 let apiServer:string="http://127.0.0.1"
 // let apiServer:string="https://api.asoul-au.live"
-const controller = new AbortController()
+//const controller = new AbortController()
 //const timeoutId = setTimeout(() => controller.abort(), 60000)
 const leftSearchStack: IStackTokens = {
     childrenGap: "l1",

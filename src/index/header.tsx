@@ -5,7 +5,7 @@ import {
 } from "@fluentui/react/lib/CommandBar";
 import {
     IButtonProps,
-    IButtonStyles,
+//    IButtonStyles,
 } from "@fluentui/react/lib/Button";
 import { DirectionalHint } from "@fluentui/react/lib/Callout";
 import {
@@ -14,8 +14,8 @@ import {
     IContextualMenuItemStyles,
     IContextualMenuStyles,
 } from "@fluentui/react/lib/ContextualMenu";
-import { concatStyleSets, getTheme } from "@fluentui/react/lib/Styling";
-import { memoizeFunction } from "@fluentui/react/lib/Utilities";
+import { getTheme } from "@fluentui/react/lib/Styling";
+//import { memoizeFunction } from "@fluentui/react/lib/Utilities";
 import "./header.css";
 
 const theme = getTheme();

@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import { Welcome } from "./index/welcome";
 import { Search } from "./search/search";
 import { mergeStyles } from "@fluentui/react";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { initializeIcons } from "@fluentui/font-icons-mdl2";
 
 initializeIcons();

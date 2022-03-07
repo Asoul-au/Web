@@ -10,14 +10,14 @@ import { PrimaryButton } from "@fluentui/react/lib/Button";
 import { ProgressIndicator } from "@fluentui/react/lib/ProgressIndicator";
 import * as moment from "moment";
 // @ts-ignore
-import Base64  from 'base-64';
+//import Base64  from 'base-64';
 // import {Simulate} from "react-dom/test-utils";
 // import error = Simulate.error;
 
 let apiServer:string="http://127.0.0.1"
 // let apiServer:string="https://api.asoul-au.live"
 const controller = new AbortController()
-const timeoutId = setTimeout(() => controller.abort(), 60000)
+//const timeoutId = setTimeout(() => controller.abort(), 60000)
 const leftSearchStack: IStackTokens = {
     childrenGap: "l1",
     padding: "l2",

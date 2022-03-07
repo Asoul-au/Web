@@ -9,7 +9,7 @@ import {
 } from "@fluentui/react";
 import { DefaultButton, PrimaryButton } from "@fluentui/react/lib/Button";
 import logo from "../assets/Diana.png";
-import { CustomTopBar, CustomHeader } from "./header";
+import { CustomTopBar } from "./header";
 import "./welcome.css";
 
 const boldStyle: Partial<ITextStyles> = {

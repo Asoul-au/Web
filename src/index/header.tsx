@@ -29,16 +29,16 @@ const menuStyles: Partial<IContextualMenuStyles> = {
     subComponentStyles: { menuItem: itemStyles, callout: {} },
 };
 
-const getCommandBarButtonStyles = memoizeFunction(
-    (
-        originalStyles: IButtonStyles | undefined
-    ): Partial<IContextualMenuItemStyles> => {
-        if (!originalStyles) {
-            return itemStyles;
-        }
-        return concatStyleSets(originalStyles, itemStyles);
-    }
-);
+//const getCommandBarButtonStyles = memoizeFunction(
+//    (
+//        originalStyles: IButtonStyles | undefined
+//    ): Partial<IContextualMenuItemStyles> => {
+//        if (!originalStyles) {
+//            return itemStyles;
+//        }
+//        return concatStyleSets(originalStyles, itemStyles);
+//    }
+//);
 
 // const CustomButton: React.FunctionComponent<IButtonProps> = (props) => {
 //     // const buttonOnMouseClick = () => alert(`${props.text} clicked`);

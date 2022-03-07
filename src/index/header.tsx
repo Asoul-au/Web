@@ -116,7 +116,7 @@ const _items: ICommandBarItemProps[] = [
         key: "search",
         text: "查找评论",
         iconProps: { iconName: "Search" },
-        href: "/search",
+        href: process.env.PUBLIC_URL + "/search",
     },
     {
         key: "share",
@@ -124,7 +124,7 @@ const _items: ICommandBarItemProps[] = [
         iconProps: {
             iconName: "Share",
         },
-        href: "/share",
+        href: process.env.PUBLIC_URL + "/share",
         onClick: () => console.log("Share"),
     },
     {

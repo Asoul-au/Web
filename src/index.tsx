@@ -19,9 +19,9 @@ mergeStyles({
 ReactDOM.render(
     <Router>
         <Routes>
-            <Route path="/welcome" element={<Welcome />} />
-            <Route path="/search" element={<Search />} />
-            <Route path="/" element={<Welcome />} />
+            <Route path="process.env.PUBLIC_URL/welcome" element={<Welcome />} />
+            <Route path="process.env.PUBLIC_URL/search" element={<Search />} />
+            <Route path="process.env.PUBLIC_URL/" element={<Welcome />} />
         </Routes>
     </Router>,
     document.getElementById("root")

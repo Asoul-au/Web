@@ -17,7 +17,7 @@ mergeStyles({
 });
 
 ReactDOM.render(
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
         <Routes>
             <Route path="/welcome" element={<Welcome />} />
             <Route path="/search" element={<Search />} />
